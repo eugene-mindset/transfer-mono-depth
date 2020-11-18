@@ -7,12 +7,12 @@ Filesystem structure:
 
 ```models/    transfer-mono-depth/    monodepth2/    datasets/    logs/...```
 
-Models contains our fully trained serialized networks. Model directories should be named as so:
+Models contains our fully trained serialized networks. ~~Model directories should be named as so:~~
 
-```['Modification']|-Finetuned|/```
+~~```['Modification']|-Finetuned|/```~~
 
-Modification represents if the network is changed (e.g. 'Control', 'Frozen-Last-Layer').
-Finetuned indicates whether this model was finetuned or not. Simply append '-Finetuned' if thats the case.
+~~Modification represents if the network is changed (e.g. 'Control', 'Frozen-Last-Layer').
+Finetuned indicates whether this model was finetuned or not. Simply append '-Finetuned' if thats the case.~~
 
 Each experiment will have a branch in monodepth2 corresponding to the changes we've made to the model. Make sure to give it the same name as the name of the model.
 
