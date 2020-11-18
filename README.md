@@ -26,7 +26,7 @@ Each experiment will have a branch in monodepth2 corresponding to the changes we
 - [ ] Setup dataset directory to have the proper files in their locations.
 - [ ] Create a dataset script to handle creating the necessary splits.
 
-# Phase II: Experimentation
+## Phase II: Experimentation
 
 - [ ] Evaluate performance of control model on indoor test set.
 - [ ] Evaluate performance of Control + Finetune on indoor test set.
